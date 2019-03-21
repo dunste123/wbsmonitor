@@ -1,0 +1,14 @@
+{
+    "name": "duncte123/wbs-monitor",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Duncan Sterken",
+            "email": "contact@duncte123.me"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0",
+        "nikic/fast-route": "^1.3"
+    }
+}
