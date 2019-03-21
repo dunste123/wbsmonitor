@@ -29,11 +29,11 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item{% if active == 'home' %} active{% endif %}">
+                <a class="nav-link" href="/">Home{% if active == 'home' %} <span class="sr-only">(current)</span>{% endif %}</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+            <li class="nav-item{% if active == 'second' %} active{% endif %}">
+                <a class="nav-link" href="/second">Link{% if active == 'second' %} <span class="sr-only">(current)</span>{% endif %}</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
